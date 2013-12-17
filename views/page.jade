@@ -1,0 +1,19 @@
+extends headers
+
+block content
+    #draw(style='width: 500px; height: 300px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: ')
+    #content(style='width: 500px; height: 100px; margin: 0 0 20px 0; border: solid 1px #999; overflow-y: scroll;')
+    .controls
+        | Username:
+        input#name(style='width:100px;')
+        br
+        input#field(style='width:350px;')
+        input#send(type='button', value='send')
+
+    div.hero-unit
+        | Monitor app - IanM - type username,
+        | then use commands
+        ul
+            - var items = ["r 123 - for rotation", "p 100 100 - for position", "s 55 - percent scale"]
+            each item in items
+                li= item
