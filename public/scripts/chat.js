@@ -63,6 +63,13 @@ window.onload = function() {
             var words =  data.message.split(" ");
 
             switch (words[0]) {
+
+                case "t":
+                    var tim = parseInt(words[1]);
+                    console.log("time:", tim);
+
+                    break;
+
                 case "r":
                     // second word is rotation in degrees
 
