@@ -11,10 +11,7 @@ v2.0 Timing loop in the server, sending time to clients
   .1 Use Express for timer page?
 
 
-  Admin page - start stop setup etc
-
-  Map page - current server map
-
-  Client page - per car
-
-  Dummies page?
+  - Admin page - start stop setup etc
+  - Map page - current server map
+  - Client page - per car
+  - Dummies page?
