@@ -20,7 +20,7 @@ window.onload = function() {
     var stage = new Kinetic.Stage({
         container: 'draw',
         width: 1000,
-        height: 600
+        height: 800
     });
     var layer = new Kinetic.Layer();
 

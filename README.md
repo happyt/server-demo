@@ -24,6 +24,11 @@ Add features
  - find which client sends message
 
   - Admin page - start stop setup etc
+  		- who connected
+  		- delete connections
+  		- cpu limits/graph
+  		-
+
   - Map page - current server map
   - Client page - per car
   - Dummies page?
