@@ -1,17 +1,15 @@
-require('./public/scripts/DeltaTimer.js');
+var dt = require('./public/scripts/DeltaTimer.js');
 
 var express = require("express");
 var app = express();
 var port = 3700;
 var version = "2.1";
 
-var timer = new DeltaTimer(function (time) {
-    console.log("timer...");
+var timer = new dt.DeltaTimer(function (time) {
+    console.log("timer..." + parseInt(time));
 }, 1000);
 
-var d = new Date();
-var n = d.getTime();
-var interval = 1000;    // msec
+timer.start();
 
 app.set('views', __dirname + '/views');
 app.set('view engine', "jade");
@@ -19,7 +17,7 @@ app.engine('jade', require('jade').__express);
 app.use(express.static(__dirname + '/public'));
 
 app.get("/", function(req, res){
-	res.render("page", { title: 'Checkout' });
+	res.render("page", { title: 'Check this out' });
 });
 
 
@@ -35,32 +33,8 @@ io.sockets.on('connection', function (socket) {
 
 console.log("Server Version " + version);
 console.log("Listening on port " + port);
+var d = new Date();
 console.log("Started at " + d.getHours() + ":"
     + d.getMinutes() + ":" + d.getSeconds());
 
-function my_async_function() {
-    console.log("working...");
-}
-/*
-myVar=setTimeout(function(){
 
-    console.log("Hello")
-},3000);
-
-(function schedule() {
-    setTimeout(function do_it() {
-        my_async_function(function() {
-            console.log('async done');
-            schedule();
-        });
-    }, interval);
-    console.log('schedule end');
-}());
-
-function doSomething() {
-    console.log("10 seconds");
-    setTimeout(doSomething, interval);
-}
-
-setTimeout(doSomething, interval);
- */

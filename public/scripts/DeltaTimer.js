@@ -4,9 +4,10 @@
  * from http://jsfiddle.net/AWpvu/1/
  * http://stackoverflow.com/questions/11624078/repeating-settimeout
  *
+ * call render using 'delay' rather than 'thisTime'
  */
 
-module.exports.DeltaTimer = function (render, interval) {
+exports.DeltaTimer = function (render, interval) {
     var timeout;
     var lastTime;
 
@@ -30,6 +31,6 @@ module.exports.DeltaTimer = function (render, interval) {
         var delay = Math.max(interval - deltaTime, 0);
         timeout = setTimeout(loop, delay);
         lastTime = thisTime + delay;
-        render(thisTime);
+        render(delay);
     }
 }
