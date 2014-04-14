@@ -2,16 +2,216 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2eda1636-63e0-4e1b-8370-aca21ebbb63b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/client.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/clientChat.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/clientHeaders.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/clientSide.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/clientSidePrevious.jade" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/wscat.cmd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/bufferutil.exp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/bufferutil.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/CL.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/CL.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/bufferutil.lastbuildstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/bufferutil.node.intermediate.manifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/bufferutil.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/bufferutil.vcxprojResolveAssemblyReference.cache" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/bufferutil.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/cl.command.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/link.command.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/link.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/link.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/mt.command.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/mt.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/mt.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/bufferutil/vc100.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/CL.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/CL.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/cl.command.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/link.command.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/link.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/link.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/mt.command.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/mt.read.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/mt.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/validation.lastbuildstate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/validation.node.intermediate.manifest" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/validation.obj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/validation.write.1.tlog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/obj/validation/vc100.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/validation.exp" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/validation.pdb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/binding.sln" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/bufferutil.vcxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/bufferutil.vcxproj.filters" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/validation.vcxproj" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/validation.vcxproj.filters" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/scripts/script.js" afterPath="$PROJECT_DIR$/public/scripts/chatScript.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/bufferutil.node" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/bufferutil.node" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/validation.node" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/Release/validation.node" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/AESKey.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/AESKey.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/AESKeyTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/AESKeyTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/ARC4.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/ARC4.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ARC4Test.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ARC4Test.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/ArrayUtil.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/ArrayUtil.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/BarrettReduction.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/BarrettReduction.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Base64.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Base64.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/BigInteger.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/BigInteger.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/BigIntegerTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/BigIntegerTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/BlowFishKey.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/BlowFishKey.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/BlowFishKeyTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/BlowFishKeyTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/ByteString.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/ByteString.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CBCMode.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CBCMode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CBCModeTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CBCModeTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CFB8Mode.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CFB8Mode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CFB8ModeTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CFB8ModeTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CFBMode.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CFBMode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CFBModeTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CFBModeTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CTRMode.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/CTRMode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CTRModeTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/CTRModeTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/CipherSuites.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/CipherSuites.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/ClassicReduction.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/ClassicReduction.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/Crypto.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/Crypto.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/DER.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/DER.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/DESKey.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/DESKey.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/DESKeyTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/DESKeyTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ECBMode.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ECBMode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ECBModeTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ECBModeTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/HMAC.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/HMAC.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/HMACTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/HMACTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Hex.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Hex.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/History.md" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/History.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/IAsn1Type.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/IAsn1Type.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ICipher.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ICipher.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/IConnectionState.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/IConnectionState.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/IHMAC.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/IHMAC.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/IHash.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/IHash.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IMode.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IMode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/IPRNG.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/IPRNG.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IPad.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IPad.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/IReduction.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/IReduction.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/ISecurityParameters.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/ISecurityParameters.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IStreamCipher.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IStreamCipher.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ISymmetricKey.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/ISymmetricKey.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ITestHarness.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/ITestHarness.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IVMode.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/IVMode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Integer.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Integer.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/KeyExchanges.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/KeyExchanges.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MAC.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MAC.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/MACs.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/MACs.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MD2.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MD2.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/MD2Test.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/MD2Test.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/gsolo/encryption/MD5.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/gsolo/encryption/MD5.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MD5.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/MD5.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/MD5Test.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/MD5Test.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/Makefile" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/Makefile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Memory.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/Memory.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/MontgomeryReduction.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/MontgomeryReduction.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/MozillaRootCertificates.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/MozillaRootCertificates.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/NullPad.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/NullPad.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/NullReduction.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/NullReduction.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/OFBMode.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/OFBMode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/OFBModeTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/OFBModeTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/OID.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/OID.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/ObjectIdentifier.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/ObjectIdentifier.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/PEM.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/PEM.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/PKCS5.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/PKCS5.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/PrintableString.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/PrintableString.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/README.md" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/RSAKeyTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/RSAKeyTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/Random.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/Random.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA1.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA1.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA1Test.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA1Test.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA224.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA224.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA224Test.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA224Test.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA256.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHA256.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA256Test.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/SHA256Test.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHABase.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/hash/SHABase.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/SSLEvent.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/SSLEvent.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/SSLPad.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/SSLPad.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/SSLSecurityParameters.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/SSLSecurityParameters.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib/Sender.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib/Sender.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Sequence.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Sequence.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Set.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Set.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/SimpleIVMode.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/SimpleIVMode.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSConfig.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSConfig.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSConnectionState.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSConnectionState.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSError.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSError.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSEvent.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSEvent.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/TLSPRF.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/prng/TLSPRF.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TLSPRFTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TLSPRFTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/TLSPad.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/TLSPad.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSecurityParameters.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSecurityParameters.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSocket.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSocket.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSocketEvent.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tls/TLSSocketEvent.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TestCase.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TestCase.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/Tokenizer.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/Tokenizer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/TripleDESKey.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/TripleDESKey.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TripleDESKeyTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/TripleDESKeyTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Type.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/Type.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/UTCTime.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/util/der/UTCTime.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/test/WebSocket.integration.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/test/WebSocket.integration.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib/WebSocket.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib/WebSocket.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/test/WebSocket.test.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/test/WebSocket.test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib/WebSocketServer.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib/WebSocketServer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/X509Certificate.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/X509Certificate.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/X509CertificateCollection.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/cert/X509CertificateCollection.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/XTeaKey.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/symmetric/XTeaKey.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/XTeaKeyTest.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/crypto/tests/XTeaKeyTest.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/ZeParser.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/ZeParser.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/chat.js" afterPath="$PROJECT_DIR$/public/scripts/chat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/headers.jade" afterPath="$PROJECT_DIR$/views/headers.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/tmp/app.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/tmp/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/beautify.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/beautify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/benchmark.html" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/benchmark.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/bi_internal.as" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/com/hurlant/math/bi_internal.as" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/binding.gyp" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/binding.gyp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib/browser.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/lib/browser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/src/bufferutil.cc" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/src/bufferutil.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/build.sh" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/lib/vendor/web-socket-js/flash-src/build.sh" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/bin/builder.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/bin/builder.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/builderror.log" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/builderror.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/clientHeaders.jade" afterPath="$PROJECT_DIR$/views/clientHeaders.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/clientSide.jade" afterPath="$PROJECT_DIR$/views/clientSide.jade" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/component-bind/component.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/component-bind/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/component-emitter/component.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/component-emitter/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/component-json/component.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/component-json/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/component-json-fallback/component.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/component-json-fallback/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/learnboost-engine.io-client/component.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/learnboost-engine.io-client/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/learnboost-socket.io-protocol/component.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/learnboost-socket.io-protocol/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/timoxley-to-array/component.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/timoxley-to-array/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/visionmedia-debug/component.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/components/visionmedia-debug/component.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/config.gypi" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/build/config.gypi" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test/const.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test/const.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/diff_multi_bench_output.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/diff_multi_bench_output.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/tmp/embed-tokens.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/tmp/embed-tokens.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test/if.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test/if.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test/ifreturn.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test/ifreturn.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/base64id/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/base64id/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/policyfile/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/policyfile/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/commander/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/commander/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/options/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/tinycolor/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/node_modules/tinycolor/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/package.json" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/xmlhttprequest/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/benches/stress/speed/plot" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/benches/stress/speed/plot" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/benches/stress/pubsub/run" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/benches/stress/pubsub/run" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/benches/stress/rpushblpop/run" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/redis/benches/stress/rpushblpop/run" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/test-parser.html" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/test-parser.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/test-tokenizer.html" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/test-tokenizer.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/tmp/test.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/tmp/test.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/testparser.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/testparser.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/uglifyjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/bin/uglifyjs" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/bin/uglifyjs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/unicodecategories.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/active-x-obfuscator/node_modules/zeparser/unicodecategories.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/src/validation.cc" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/src/validation.cc" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test/var.js" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/uglify-js/test/unit/compress/test/var.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/doc/ws.md" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/doc/ws.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/wscat" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/.bin/wscat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/bin/wscat" afterPath="$PROJECT_DIR$/node_modules/socket.io/node_modules/socket.io-client/node_modules/ws/bin/wscat" />
     </list>
     <ignored path="Chat-Node.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,21 +234,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="chat.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/chat.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1558" max-vertical-offset="2865">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="clientChat.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/scripts/clientChat.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1020">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="1020">
+              <caret line="60" column="7" selection-start-line="56" selection-start-column="1" selection-end-line="60" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -57,78 +247,30 @@
       <file leaf-file-name="clientSide.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/clientSide.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="44" />
-              <folding />
+            <state vertical-scroll-proportion="-23.44" vertical-offset="29" max-vertical-offset="780">
+              <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+              <folding>
+                <marker date="1397238508000" expanded="true" signature="1194:1858" placeholder="&lt;xml/&gt;" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/scripts/script.js">
+      <file leaf-file-name="chatScript.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scripts/chatScript.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.10221465" vertical-offset="0" max-vertical-offset="690">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+              <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1065">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/page.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-              <caret line="10" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/client.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-45.0" vertical-offset="0" max-vertical-offset="210">
-              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="headers.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/headers.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="clientHeaders.jade" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/clientHeaders.jade">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.077225134" vertical-offset="511" max-vertical-offset="1800">
+              <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -171,21 +313,22 @@
         <option value="$PROJECT_DIR$/views/login.jade" />
         <option value="$PROJECT_DIR$/views/headers.jade" />
         <option value="$PROJECT_DIR$/public/scripts/chat.js" />
-        <option value="$PROJECT_DIR$/views/clientHeaders.jade" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/views/client.jade" />
         <option value="$PROJECT_DIR$/public/scripts/clientChat.js" />
-        <option value="$PROJECT_DIR$/views/clientSide.jade" />
-        <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/public/scripts/script.js" />
+        <option value="$PROJECT_DIR$/views/clientHeaders.jade" />
+        <option value="$PROJECT_DIR$/views/clientSide.jade" />
+        <option value="$PROJECT_DIR$/public/scripts/chatScript.js" />
+        <option value="$PROJECT_DIR$/app.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="47" />
-    <option name="y" value="29" />
-    <option name="width" value="885" />
-    <option name="height" value="720" />
+    <option name="x" value="122" />
+    <option name="y" value="136" />
+    <option name="width" value="1021" />
+    <option name="height" value="861" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -222,62 +365,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="server-demo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -295,6 +382,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/views" />
       <recent name="C:\GitHub\bncsLog\public\scripts" />
       <recent name="C:\GitHub\draw-chat\public\scripts" />
     </key>
@@ -368,15 +456,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="47" y="29" width="885" height="720" extended-state="0" />
-    <editor active="true" />
+    <frame x="122" y="136" width="1021" height="861" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3287037" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24971752" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21645446" sideWeight="0.6712963" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
@@ -412,9 +500,127 @@
     <option name="LAST_COMMIT_MESSAGE" value="Initial canvas additions" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/scripts/chatScript.js</url>
+          <line>3</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/app.js</url>
+          <line>31</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/public/scripts/clientChat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="1020">
+          <caret line="60" column="7" selection-start-line="56" selection-start-column="1" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientSide.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="780">
+          <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding>
+            <marker date="1397238508000" expanded="true" signature="1194:1858" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/chatScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="855">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="1965">
+          <caret line="90" column="54" selection-start-line="90" selection-start-column="54" selection-end-line="90" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2865">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/clientChat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="795" max-vertical-offset="1020">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientSide.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="765">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+          <folding>
+            <marker date="1397238508000" expanded="true" signature="1194:1858" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/chatScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="780">
+          <caret line="32" column="61" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1905">
+          <caret line="44" column="21" selection-start-line="44" selection-start-column="21" selection-end-line="44" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/page.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="150" max-vertical-offset="375">
+          <caret line="10" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/client.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="210">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/headers.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="285">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientHeaders.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="510">
+          <caret line="5" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/chat.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2865">
@@ -435,7 +641,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="615">
           <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -483,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="90" max-vertical-offset="600">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -491,7 +694,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -535,19 +737,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/DeltaTimer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/three.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10740">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -555,7 +748,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="587">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -563,7 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="975">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -571,7 +762,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="600">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -583,74 +773,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/page.jade">
+    <entry file="file://$PROJECT_DIR$/public/scripts/DeltaTimer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <caret line="10" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.2834008" vertical-offset="0" max-vertical-offset="741">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/chat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44534412" vertical-offset="0" max-vertical-offset="2865">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/headers.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/clientChat.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1020">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/clientHeaders.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.2631579" vertical-offset="0" max-vertical-offset="741">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/client.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-45.0" vertical-offset="0" max-vertical-offset="210">
+        <state vertical-scroll-proportion="0.12362637" vertical-offset="0" max-vertical-offset="728">
           <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/page.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20604396" vertical-offset="0" max-vertical-offset="728">
+          <caret line="10" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/clientSidePrevious.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5792277" vertical-offset="0" max-vertical-offset="751">
+          <caret line="29" column="44" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="44" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/chat.js">
+    <entry file="file://$PROJECT_DIR$/views/clientHeaders.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="315" max-vertical-offset="2865">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="0.099866845" vertical-offset="0" max-vertical-offset="751">
+          <caret line="5" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/clientSide.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <caret line="11" column="44" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="44" />
+        <state vertical-scroll-proportion="-23.44" vertical-offset="29" max-vertical-offset="780">
+          <caret line="41" column="28" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="28" />
+          <folding>
+            <marker date="1397238508000" expanded="true" signature="1194:1858" placeholder="&lt;xml/&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/clientChat.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="256" max-vertical-offset="1020">
+          <caret line="60" column="7" selection-start-line="56" selection-start-column="1" selection-end-line="60" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/chatScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="855">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="1065">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="34" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/script.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.10221465" vertical-offset="0" max-vertical-offset="690">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.077225134" vertical-offset="511" max-vertical-offset="1800">
+          <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
           <folding />
         </state>
       </provider>

@@ -1,0 +1,35 @@
+doctype html
+html
+    head
+        title Chat
+        link(rel='stylesheet', href='/bootstrap/css/bootstrap-responsive.min.css')
+        script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js')
+        script(src='/bootstrap/js/bootstrap.min.js')
+        script(src="/socket.io/socket.io.js")
+        script(src="scripts/chatScript.js")
+    body
+        .navbar.navbar-default.navbar-fixed-top
+            .container
+                .navbar-header
+                    button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-responsive-collapse')
+                        span.icon-bar
+                        span.icon-bar
+                        span.icon-bar
+                    a.navbar-brand(href='#')
+                        | Test server site, client
+                div.navbar-collapse.collapse.navbar-responsive-collapse
+                    ul.nav.navbar-nav
+                        li.active
+                            a(href='#') Home
+                        li
+                            a(href='about') About
+
+        .container
+            header
+                h1 Server demo app
+            input(type='text')#nicknameInput
+            button#setNickname Set Name
+            div#chatEntries
+            div#chatControls
+                input(type='text')#messageInput
+                button#submit Send
